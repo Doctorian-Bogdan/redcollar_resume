@@ -1,0 +1,35 @@
+@import "../vendor/normalize.css";
+
+@import "../vendor/fonts.css";
+
+@import "../blocks/body/body.css";
+
+@import "../blocks/page/page.css";
+
+@import "../blocks/header/header.css";
+@import "../blocks/header/__logo/header__logo.css";
+
+@import "../blocks/main/main.css";
+
+@import "../blocks/profile/profile.css";
+@import "../blocks/profile/__contact/profile__contact.css";
+@import "../blocks/profile/__contacts/profile__contacts.css";
+@import "../blocks/profile/__container/profile__container.css";
+@import "../blocks/profile/__img/profile__img.css";
+@import "../blocks/profile/__info/profile__info.css";
+@import "../blocks/profile/__name/profile__name.css";
+@import "../blocks/profile/__link/profile__link.css";
+@import "../blocks/profile/__icon/profile__icon.css";
+
+@import "../blocks/resume/resume.css";
+@import "../blocks/resume/__info/resume__info.css";
+@import "../blocks/resume/__container/resume__container.css";
+@import "../blocks/resume/__item/resume__item.css";
+@import "../blocks/resume/__name/resume__name.css";
+@import "../blocks/resume/__place/resume__place.css";
+@import "../blocks/resume/__places/resume__places.css";
+@import "../blocks/resume/__skill/resume__skill.css";
+@import "../blocks/resume/__skills/resume__skills.css";
+@import "../blocks/resume/__skills-wrapper/resume__skills-wrapper.css";
+@import "../blocks/resume/__subtitle/resume__subtitle.css";
+@import "../blocks/resume/__title/resume__title.css";

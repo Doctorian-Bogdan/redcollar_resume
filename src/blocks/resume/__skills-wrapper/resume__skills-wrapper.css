@@ -1,0 +1,10 @@
+.resume__skills-wrapper {
+  display: flex;
+  gap: 32px;
+}
+
+@media screen and (max-width: 1024px) {
+  .resume__skills-wrapper {
+    gap: 16px;
+  }
+}

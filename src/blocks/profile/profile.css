@@ -1,0 +1,23 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  max-width: 322px;
+  position: relative;
+}
+
+.profile::before {
+  content: "";
+  background-image: url("../../images/profile_img-dec.png");
+  width: 147px;
+  height: 79px;
+  position: absolute;
+  top: 61px;
+  left: 98px;
+  transform: rotate(19deg);
+}
+
+@media screen and (max-width: 1024px) {
+  .profile {
+    max-width: 320px;
+  }
+}

@@ -1,0 +1,32 @@
+.profile__container {
+  background-color: #F51B1B;
+  box-sizing: border-box;
+  padding: 40px 0 0 24px;
+  border-radius: 24px 24px 0 0;
+  margin-top: -29px;
+  position: relative;
+  min-height: 454px;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+
+.profile__container::before {
+  content: "";
+  background-image: url("../../../images/profile_decoration.png");
+  width: 60px;
+  height: 19px;
+  position: absolute;
+  top: -19px;
+  left: calc(50% - 30px);
+}
+
+@media screen and (max-width: 1024px) {
+  .profile__container {
+    border-radius: 20px 20px 0 0;
+    padding: 24px 0 40px 16px;
+    min-height: 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

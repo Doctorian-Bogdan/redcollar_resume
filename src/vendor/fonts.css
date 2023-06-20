@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Redcollar';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Redcollar.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: 'TT Commons';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/TTCommons-Regular.woff2) format("woff2"),
+  url(../fonts/TTCommons-Regular.woff) format("woff");
+}

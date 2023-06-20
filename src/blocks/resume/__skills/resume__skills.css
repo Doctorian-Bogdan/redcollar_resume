@@ -1,0 +1,12 @@
+.resume__skills {
+  display: flex;
+  gap: 72px;
+}
+
+@media screen and (max-width: 1024px) {
+  .resume__skills {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+

@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  gap: 32px;
+  margin-top: -12px;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    margin-top: 0;
+    box-sizing: border-box;
+    padding-top: 48px;
+    flex-direction: column;
+    gap: 40px;
+  }
+}

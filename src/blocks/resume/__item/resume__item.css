@@ -1,0 +1,15 @@
+.resume__item {
+  display: flex;
+  gap: 72px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .resume__item {
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 24px;
+  }
+}

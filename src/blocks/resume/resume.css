@@ -1,0 +1,19 @@
+.resume {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .resume {
+    padding-top: 0;
+    padding-bottom: 60px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+  }
+}

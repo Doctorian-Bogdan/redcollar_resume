@@ -1,0 +1,16 @@
+.resume__title {
+  margin: 0;
+  font-family: 'Redcollar', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  min-width: 124px;
+}
+
+@media screen and (max-width: 1024px) {
+  .resume__title {
+    min-width: 120px;
+  }
+}
+

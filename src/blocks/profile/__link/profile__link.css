@@ -1,0 +1,18 @@
+.profile__link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.profile__link:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px) {
+  .profile__link {
+    gap: 14px;
+  }
+}
